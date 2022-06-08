@@ -7,4 +7,6 @@ module cl.uchile.dcc.citricliquid {
 
   exports cl.uchile.dcc.citricliquid.view;
   opens cl.uchile.dcc.citricliquid.view to javafx.fxml;
+    exports cl.uchile.dcc.citricliquid.model.entitys;
+    opens cl.uchile.dcc.citricliquid.model.entitys to javafx.fxml;
 }
